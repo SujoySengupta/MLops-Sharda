@@ -23,7 +23,7 @@ model.fit(X_train, y_train)
 print("\nEvaluating model...")
 predictions = model.predict(X_test)
 accuracy = accuracy_score(y_test, predictions)
-#This comment is for making changes
+#This comment is for changes
 
 print("-" * 30)
 print(f"Model Accuracy: {accuracy * 100:.2f}%")
